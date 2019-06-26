@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>  
+          <class name="com.assetsense.org.stocktrade.client.Customer" table="Customer">  
+          <id name="id">  
+          <generator class="increment"></generator>  
+          </id>  
+          <property name="Name"></property>
+          <property name="phone"></property> 
+          <property name="Email"></property> 
+          <property name="Gender"></property> 
+          <property name="Password"></property> 
+          <property name="cPassword"></property> 
+          <property name="dob"></property> 
+             
+          </class>  
+          
+</hibernate-mapping>
